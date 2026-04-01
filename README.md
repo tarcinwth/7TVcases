@@ -1,64 +1,139 @@
+---
 
+# 🚀 7TV Cases AIO Bot (All-In-One SuperScript)
 
-# 7TV Auto Case Opener
+The ultimate, fully automated **All-In-One Bot** for **7tv.app/cases**.
+This script combines a lightning-fast auto-opener, an intelligent auto-seller, and an AFK Farm Mode into a single, sleek, draggable Mod Menu interface.
 
-A lightweight, efficient, and **safe** automation script for 7TV.app. This tool automates the repetitive process of opening reward cases, including clicking the "Unlock" button, waiting for animations, and confirming the loot.
-
-## Features
-
-* **Fully Automated Workflow**: Handles the "Unlock Case" → "Animation Wait" → "Confirm" loop.
-* **Built-in Modern UI**: Floating control panel at the top-right of your screen.
-* **Progress Tracking**: Real-time progress bar and status updates.
-* **Smart Delays**: Pre-configured safety margins to ensure animations finish before clicking.
-* **Customizable**: Adjust the number of cases to open directly through the UI or console.
-* **Developer Console Logs**: Detailed, color-coded logs to track every action.
+Stop wasting hours clicking and watching animations. Let the bot do the hard work for you! 💎✨
 
 ---
 
-## Is it Safe?
+## 💎 Key Features
 
+### 🤖 AFK Farm Mode
 
-1.  **Local Execution only**: The script runs entirely in your browser's memory. It **never** sends your data, cookies, or credentials to external servers.
-2.  **No API Calls**: It does not "hack" the 7TV backend. It simply mimics human mouse clicks on the buttons already present on your screen.
-3.  **Human-Like Timing**: It includes safety delays (e.g., 12 seconds for animations) to ensure the site's anti-spam or UI triggers aren't overwhelmed.
-4.  **Open Source**: The code is short and readable. Anyone can audit the logic to see there are no malicious "stealer" functions.
-5.  **Non-Persistent**: It doesn't modify your 7TV account or files. Once you refresh the page, the script is gone.
+The bot's brain. Opens a batch of cases, pauses to auto-sell "trash" items, then resumes automatically.
+**Infinite loop farming.**
 
----
+### ⚡ Global Turbo Mode
 
-## How to Use
+Skips all animations using CSS injection and JS timer manipulation (**100x speed**).
+Cases open instantly without breaking the site.
 
-### Method 1: Browser Console (Quickest)
-1.  Open the 7TV Case Opening page.
-2.  Press `F12` (or `Ctrl+Shift+I`) and go to the **Console** tab.
-3.  Paste the entire script and press **Enter**.
-4.  Use the **UI Panel** that appears on the top right to start.
+### 🧹 Smart Auto-Seller
 
-### Method 2: Userscript Manager (Recommended)
-1.  Install an extension like **Tampermonkey** or **Violentmonkey**.
-2.  Create a new script and paste the code.
-3.  The script will load automatically whenever you visit the 7TV case page.
+Choose exactly which rarities to sell:
 
----
+* Blue
+* Purple
+* Pink
+* Red
+* Gold ⚠️
 
-## ⚙️ Configuration
-You can adjust these values at the top of the script if you want to customize the behavior:
+Keeps your valuable drops safe.
 
-| Setting | Default | Description |
-| :--- | :--- | :--- |
-| `maxCases` | 10 | Total cases to open before stopping automatically. |
-| `animationWait` | 12000 | Time (ms) to wait for the case opening animation. |
-| `nextCaseDelay` | 2000 | Rest period (ms) between finishing one case and starting another. |
+### 🎨 Draggable Mod Menu
 
----
+A clean, dark-mode floating UI.
+Drag it anywhere on your screen.
 
-## ⌨️ Console Commands
-If you prefer using the console over the UI, the script exposes a global `caseOpener` object:
-* `caseOpener.start()` - Starts the opening process.
-* `caseOpener.stop()` - Stops the process immediately.
-* `caseOpener.status()` - Shows the current progress in the console.
-* `caseOpener.setMax(50)` - Changes the target number of cases.
+### 📊 Real-Time Stats
+
+Tracks your session:
+
+* Cases opened
+* Items sold
+* Items kept
+
+### 🛡️ Anti-Loop Protection
+
+Prevents bugs and infinite clicking by tagging processed items in the DOM.
 
 ---
 
-**Disclaimer**: *This script is an independent tool and is not affiliated with 7TV. Use responsibly and according to the platform's terms of service.*
+## 🛠️ Installation & Usage
+
+### ⚡ Method 1: Console Injection (Quickest)
+
+1. Go to **7TV Cases page**
+2. Press `F12` (`Ctrl+Shift+I` / `Cmd+Option+I`)
+3. Open the **Console**
+4. Paste the script (`7tv_superscript.js`)
+5. Press **Enter**
+
+✅ The Mod Menu will appear in the top right corner.
+
+---
+
+### 🧩 Method 2: Tampermonkey / Greasemonkey (Permanent)
+
+1. Install **Tampermonkey**
+2. Create a new UserScript
+3. Add:
+
+```javascript
+// ==UserScript==
+// @name         7TV AIO Bot
+// @namespace    http://tampermonkey.net/
+// @version      3.0
+// @description  AFK Farm, Turbo Mode and Auto-Seller for 7TV
+// @match        *://7tv.app/cases*
+// @grant        none
+// ==/UserScript==
+```
+
+4. Paste the `7tv_superscript.js` below
+5. Save
+
+✅ The bot will auto-load whenever you open the page.
+
+---
+
+## 🎮 How to Use
+
+* **Cases per Batch**
+  Define how many cases to open before selling (Default: 10)
+
+* **Global Turbo Mode**
+  Enables ultra-fast animations
+
+* **Auto-Sell Rarities**
+  Select which items to sell
+  ⚠️ Be careful with **Gold**
+
+* **START AFK**
+  Starts the farming loop
+
+* **STOP / ESC**
+  Stops instantly
+
+* **Quick Sell Trash**
+  Runs seller once (no case opening)
+
+---
+
+## 📸 Preview
+
+![7TV AIO Bot UI](https://image2url.com/r2/default/images/1775086842275-d18b96ec-1f6b-4594-8c8c-acb1c29cd773.png)
+
+---
+
+## ⚠️ Disclaimer
+
+This tool is for **educational and personal use only**.
+
+Using automation may violate the Terms of Service of some platforms.
+Use at your own risk.
+
+The author is **not responsible** for:
+
+* Lost items
+* Lost credits
+* Account bans
+
+
+## ❤️ Credits
+
+Developed with ❤️ by [tarcinwth](https://github.com/tarcinwth)
+
