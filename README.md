@@ -115,7 +115,7 @@ Prevents bugs and infinite clicking by tagging processed items in the DOM.
 
 ## 📸 Preview
 
-![image](https://image2url.com/r2/default/images/1775086842275-d18b96ec-1f6b-4594-8c8c-acb1c29cd773.png)
+![Ui]([https://image2url.com/r2/default/images/1775086842275-d18b96ec-1f6b-4594-8c8c-acb1c29cd773.png](https://cdn.phototourl.com/free/2026-04-01-21f50adf-da56-4cc8-b2cb-4257e2d647da.png))
 
 ---
 
