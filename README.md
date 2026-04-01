@@ -115,7 +115,7 @@ Prevents bugs and infinite clicking by tagging processed items in the DOM.
 
 ## 📸 Preview
 
-![7TV AIO Bot UI](https://image2url.com/r2/default/images/1775086842275-d18b96ec-1f6b-4594-8c8c-acb1c29cd773.png)
+![image](https://image2url.com/r2/default/images/1775086842275-d18b96ec-1f6b-4594-8c8c-acb1c29cd773.png)
 
 ---
 
