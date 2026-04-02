@@ -64,32 +64,6 @@ Prevents bugs and infinite clicking by tagging processed items in the DOM.
 
 ✅ The Mod Menu will appear in the top right corner.
 
----
-
-### 🧩 Method 2: Tampermonkey / Greasemonkey (Permanent)
-
-1. Install **Tampermonkey**
-2. Create a new UserScript
-3. Add:
-
-```javascript
-// ==UserScript==
-// @name         7TV AIO Bot
-// @namespace    http://tampermonkey.net/
-// @version      3.0
-// @description  AFK Farm, Turbo Mode and Auto-Seller for 7TV
-// @match        *://7tv.app/cases*
-// @grant        none
-// ==/UserScript==
-```
-
-4. Paste the `7tv_superscript.js` below
-5. Save
-
-✅ The bot will auto-load whenever you open the page.
-
----
-
 ## 🎮 How to Use
 
 * **Cases per Batch**
